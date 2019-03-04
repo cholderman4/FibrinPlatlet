@@ -34,7 +34,7 @@ struct NodeInfoVecs {
 
 	thrust::device_vector<double> nodeVelocity;
 
-//holds forces to advance position and velocity
+	//holds forces to advance position and velocity
 	thrust::device_vector<double> nodeForceX;
 	thrust::device_vector<double> nodeForceY;
 	thrust::device_vector<double> nodeForceZ;
@@ -151,7 +151,7 @@ struct DomainParams {
 	double maxY;
 	double minZ;
 	double maxZ;
-  	double pltminX;
+  double pltminX;
 	double pltmaxX;
 	double pltminY;
 	double pltmaxY;
@@ -232,7 +232,7 @@ struct GeneralParams{
 	unsigned originNodeCount;//pre discretize
   	
 	  //platelets
-  	unsigned maxPltCount;//after discretize
+  unsigned maxPltCount;//after discretize
 	unsigned originPltCount;//pre discretize
 
 	unsigned originLinkCount;//constant unsubdivided count of edges

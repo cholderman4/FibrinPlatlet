@@ -1,8 +1,6 @@
 #include "System.h"
 #include "Torsion_Force.h"
-
 #include "functor_misc.h"
-
 #include "functor_torsion.h"
 
 
