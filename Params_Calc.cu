@@ -62,9 +62,8 @@ void Params_Calc(
 						nodeInfoVecs.nodeForceX.begin(),
 						nodeInfoVecs.nodeForceY.begin(),
 						nodeInfoVecs.nodeForceZ.begin())) + generalParams.maxNodeCount,
-				nodeInfoVecs.sumForcesOnNode.begin(),//save vector
-				
-                functor_norm());
+				nodeInfoVecs.sumForcesOnNode.begin(),//save vector				
+				functor_norm());
 
 			//platelets
 			thrust::transform(
